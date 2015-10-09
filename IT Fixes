@@ -11,17 +11,18 @@ IT Fixes
 
 * Terminal Commands
 
-1
-2
-3
-4
-5
-6
+1 Clear Screen					Command + K  - or clear [to clear screen and scroll back cmds]
+2 Clear only ScrollBack			Option + Command + K
+3 Zip and Encrypt				zip -re archiveName *name/of/folder*
+4 Fix File Permissions				sudo chmod 777 *path-to-file*  (add -R after command to modify perm on folder and contents)
+    777 anyone open/execute  644 anyone open/access only owner can modify
+5 Assign Ownership				sudo chown your-short-user-name path-to-file
+6 Scrub Free Space				diskutil secureErase freespace 3 /Volumes/name-of-drive
 
 
 --------------------
 
-* Window
+* Windows
 
 1
 2
@@ -58,7 +59,7 @@ IT Fixes
 5
 6
 
-* Regestry Edits
+* Registry Edits
 
 1
 2
